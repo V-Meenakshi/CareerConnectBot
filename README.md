@@ -1,4 +1,4 @@
-# Job Finder Bot
+# Career Connect Bot
 
 ## Overview
 Job Finder Bot is an intelligent job search application that leverages natural language processing to help users find job listings using conversational queries. The application connects to a Neo4j graph database and uses Google's Gemini AI models to interpret user queries, convert them to Cypher queries, and present job results in a user-friendly format.
