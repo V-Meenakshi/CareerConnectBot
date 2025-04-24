@@ -18,7 +18,7 @@ cypher_query = None
 database_results = None
 
 # API key for Google Gemini
-GOOGLE_API_KEY = "AIzaSyA4W-NBTP4GN1CYjPHu9Hv6X_w8CPM6Q-E"
+GOOGLE_API_KEY = "your_apikey"
 
 # Configure the Gemini API
 genai.configure(api_key=GOOGLE_API_KEY)
@@ -43,7 +43,7 @@ llm = ChatGoogleGenerativeAI(
 # Neo4j configuration
 neo4j_url = "bolt://localhost:7687"
 neo4j_user = "neo4j"
-neo4j_password = "87654321"
+neo4j_password = "your_password"
 
 # Improved Cypher generation prompt with fuzzy matching emphasis
 cypher_generation_template = """
